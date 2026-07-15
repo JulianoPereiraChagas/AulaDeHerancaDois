@@ -26,11 +26,8 @@ Visibilidade = determina onde variáveis e métodos podem ser acessados ou alter
 
 Diagrama de classes = modelo visual da estrutura estática de um sistema
 
-+ = Público = A classe atua e todas a outras classes
++ = Público = A classe atua e todas a outras classes, - = Privado = A classe atual, # = Protegido = A classe atual e todas as outras subclasses
 
-- = Privado = A classe atual
-
-# = Protegido = A classe atual e todas as outras sub classes
 
 Métodos acessores/getter = métodos que dão acesso à uma determinada coisa
 
