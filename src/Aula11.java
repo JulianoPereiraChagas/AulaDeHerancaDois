@@ -14,6 +14,13 @@ public class Aula11 {
         a1.setIdade(16);
         a1.setSexo("M");
         a1.pagarMensalidade();
+        Bolsista b1 = new Bolsista();
+        b1.setMatricula(11112);
+        b1.setNome("jubileu");
+        b1.setBolsa(12.5F);
+        b1.setSexo("M");
+        b1.pagarMensalidade();
+
 
 
     }
