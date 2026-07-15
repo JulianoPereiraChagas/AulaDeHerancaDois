@@ -8,7 +8,7 @@ public class Aula11 {
         v1.setSexo("M");
         System.out.println(v1.toString());*/
         Aluno a1 = new Aluno();
-        a1.setNome("Cláudio");
+        a1.setNome(" Cláudio");
         a1.setMatricula(11111);
         a1.setCurso("Informatica");
         a1.setIdade(16);
