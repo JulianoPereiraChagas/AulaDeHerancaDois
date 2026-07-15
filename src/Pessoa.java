@@ -1,10 +1,10 @@
-public class Pessoa {
+public abstract class Pessoa {
 
     private String nome;
     private int idade;
     private String sexo;
 
-    public void fazerAniversario() {
+    public void fazerAniversario(){
         this.idade++;
     }
 
@@ -20,8 +20,8 @@ public class Pessoa {
         return idade;
     }
 
-    public void setIdade(String idade) {
-        this.idade = Integer.parseInt(idade);
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 
     public String getSexo() {
@@ -32,16 +32,12 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-
     @Override
     public String toString() {
-        return "Pessoa{" +
+        return "Dados{" +
                 "nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", sexo='" + sexo + '\'' +
                 '}';
-    }
-
-    public void receberAum(String s) {
     }
 }
